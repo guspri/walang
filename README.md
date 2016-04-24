@@ -46,5 +46,7 @@ $ sudo systemctl start walang-display
 
 ![GPIO Raspberry Pi 2](/images/GPIO_Pi2.png)
 ![Rangkaian LED 1 Sederhana Satu Lampu](/images/simplecircuit.jpg)
+- Katoda LED dihubungkan ke pin 14 Raspberry Pi
+- Anoda LED disisipkan resistor pembatas arus 220Ohm atau 100Ohm. Dihubungkan ke pin 12 GPIO Raspberry Pi.
 
 Selamat mencoba.
