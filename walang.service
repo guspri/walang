@@ -1,0 +1,9 @@
+[Unit]
+Description=walang - mailbox monitoring
+
+[Service]
+ExecStart=/usr/local/bin/walang.py
+PIDFile=/var/run/walang.pid
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=walang-display  - blink led if any new email exist
+
+[Service]
+ExecStart=/usr/local/bin/walang-display.py
+PIDFile=/var/run/walang-display.pid
+
+[Install]
+WantedBy=default.target walang.service
