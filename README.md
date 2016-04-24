@@ -10,7 +10,7 @@ Walang adalah skrip dalam bahasa python untuk memonitor mailbox email di server.
 $ git clone https://github.com/guspri/walang.git
 $ cd walang
 ```
-edit file checkmail.py, sesuaikan informasi berikut:
+edit file walang.py, sesuaikan informasi berikut:
 ```
 HOSTNAME = 'mail.server.dom'
 USERNAME = 'account@server.dom'
@@ -42,5 +42,9 @@ Jalankan dengan perintah:
 $ sudo systemctl start walang
 $ sudo systemctl start walang-display
 ```
+##Hardware
+
+![GPIO Raspberry Pi 2](/images/GPIO_Pi2.png)
+![Rangkaian LED 1 Sederhana Satu Lampu](/images/simplecircuit.jpg)
 
 Selamat mencoba.
